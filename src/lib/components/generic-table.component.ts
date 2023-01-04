@@ -118,4 +118,9 @@ export abstract class EngeLibGenericTable extends EngeLibGenericComponent {
 		this.resultCount.emit(this.totalRecords);
 		this.resultList.emit(this.ds);
 	}
+	
+	protected checkClick(f: Function, param: any) {
+		if(f === undefined) return;
+		f(param);
+	}
 }
