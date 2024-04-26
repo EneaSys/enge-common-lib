@@ -1,10 +1,6 @@
 {
   "name": "@enge/common-lib",
-<<<<<<< HEAD
-  "version": "15.0.1",
-=======
   "version": "15.0.2",
->>>>>>> release/v15.0.2
   "repository": {
     "type": "git",
     "url": "git+https://github.com/eneasys/enge-common-lib.git"
